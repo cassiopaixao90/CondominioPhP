@@ -22,7 +22,7 @@
 						<td> <input class="form-control" type="text" name="email" size="15"></td>
 					</tr>
 					<tr>
-						<td>Preço</td>
+						<td>Senha</td>
 						<td><input  class="form-control" type="password" name="senha"></td>
 					</tr>
 					<tr>

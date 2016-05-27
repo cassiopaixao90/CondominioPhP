@@ -11,13 +11,7 @@
 		<div class="container">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.php">Meu Condominio</a>
-			</div>
-			<div>
-				<ul class="nav navbar-nav">
-					<li><a href="#">Adiciona Morador</a></li>
-					<li><a href="#">Moradores</a></li> 
-				</ul>
-			</div>
+			</div> 
 		</div>
 	</div>
 	
