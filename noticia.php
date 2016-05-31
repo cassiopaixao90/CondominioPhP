@@ -1,6 +1,6 @@
 <?php
 function cadastrarNoticia($conexao, $titulo, $noticia){ 
-	$query = "insert into noticias (titulo, noticia) values('{$titulo}', '{$noticia}')";
+	$query = "insert into noticias (titulo, noticia, publicacao) values('{$titulo}', '{$noticia}' , 1)";
 	if(mysqli_query($conexao, $query)){
 		$return = 1;
 	}else{
@@ -15,4 +15,9 @@ function cadastrarNoticia($conexao, $titulo, $noticia){
 		array_push($noticias, $noticia);
 	}
 	return $noticias;
+}
+
+ function removeNoticia($conexao, $id){  
+	$query = "delete from noticias where idnoticias = {$id}";
+    return mysqli_query($conexao, $query);
 }

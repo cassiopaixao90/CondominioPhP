@@ -3,7 +3,7 @@
 	<meta charset="utf-8">
 	<title>Condominio</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/condominio.css" rel="stylesheet">
+	<link href="css/condominio.css" rel="stylesheet"> 
 </head>
 <body>
 	
